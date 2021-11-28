@@ -35,7 +35,7 @@
         #nav {
             width: 15%;
             background-color: #E6EAED;
-            height: 1200px;
+            height: 900px;
             float: left;
             padding-top: 50px;
         }
@@ -57,7 +57,7 @@
             width: 85%;
             background-color: white;
             float: right;
-            height: 1200px;
+            height: 900px;
         }
 
         #pos3 {
@@ -74,7 +74,6 @@
         #pos5 {
             
             padding-left: 680px;
-            color: gray;
         }
 
         a.line_list:link {
@@ -89,6 +88,17 @@
             color: green;
         }
 
+        a.line_list2:link {
+            color: gray;
+        }
+
+        a.line_list2:visited {
+            color: gray;
+        }
+
+        a.line_list2:hover {
+            color: darkred;
+        }
 
         #footer {
             background-color: #AAD3ED;
@@ -104,7 +114,7 @@
 </head>
 <body>
     <div id="wrapper">
-        <div id="header"> <a class="line_list" href="main.html" target="_self" style="color:white"> SUBSPACE </a> </div>
+        <div id="header"> <a href="main.html" target="_self" style="color:white"> SUBSPACE </a> </div>
         <div id="nav">
             <h2 id="pos1"><a class="line_list" href="main.html" target="_self" >Introduce</a></h2>
             <h2 id="pos1"><a class="line_list" href="전체.html" target="_self" >SubwayMap</a></h2>
@@ -127,7 +137,7 @@
             <h2 id="pos3">목적지까지 편하게 앉아서 이동할 수 있도록 도와줄게요.<br />실시간으로 칸별 남은 자석을 확인해보세요.</h2>
 
             <img id="pos4" src="img/subway.jpg" alt="koreansubway" />
-            <p id="pos5">-> 현재 위치 바로 가기</p>
+            <p id="pos5"><a class="line_list2" href="1호선 근접도.html">-> 현재 위치 바로 가기</a></p>
 
         </div>
         <div id="footer"> COPYRIGHT (c) 2021 SUBSPACE </div>
