@@ -14,11 +14,14 @@
             padding-top: 12px;
             letter-spacing: 3px;
         }
+        /*header 스타일 설정*/
 
         a {
-            text-decoration-line: none; /*링크 밑줄 지우기*/
+            text-decoration-line: none;
         }
+            /*링크 밑줄 지우기*/
 
+            /*header 링크 스타일 설정*/
             a.header:link {
                 color: white;
             }
@@ -31,14 +34,14 @@
                 color: white;
             }
 
-
         #nav {
             width: 15%;
             background-color: #E6EAED;
-            height: 1200px;
+            height: 1000px;
             float: left;
             padding-top: 50px;
         }
+        /*nav 스타일 설정*/
 
         #list {
             font-family: 'Aria';
@@ -46,34 +49,17 @@
             text-align: center;
             letter-spacing: 2px;
         }
+        /*introduce subwaymap visit record 스타일 설정*/
 
         #subway_list {
             list-style-type: square;
             padding-left: 80px;
             letter-spacing: 1px;
         }
-
-        #content {
-            width: 85%;
-            background-color: white;
-            float: right;
-            height: 1200px;
-        }
-
-        #line_pic {
-            width: 1346px;
-            height: 1092px;
-        }
-
-        #sub_pic {
-            text-align: center;
-            width: 80%;
-            background-color: white;
-            float: right;
-            height: 500px;
-        }
+        /*전체노선도~9호선 리스트 스타일 설정*/
 
 
+        /*호선별 리스트 링크 스타일 설정*/
         a.line_list:link {
             color: black;
         }
@@ -86,15 +72,6 @@
             color: green;
         }
 
-        #list {
-            font-family: 'Aria';
-            text-shadow: 2px 2px 2px #FFFFFF;
-            text-align: center;
-            letter-spacing: 2px;
-        }
-        /*introduce subwaymap visit record 스타일 설정*/
-
-
         #visit_list {
             list-style-type: circle;
             padding-left: 80px;
@@ -102,6 +79,46 @@
             color: darkslategray;
         }
         /*방문기록 리스트 스타일 설정*/
+
+        #content {
+            width: 85%;
+            background-color: white;
+            float: right;
+            height: 1000px;
+        }
+        /*content 스타일 설정*/
+
+        #main_content1 {
+            padding-top: 15px;
+            text-align: center;
+        }
+        /*subway 메인 설명글 스타일 설정*/
+
+        #main_pic {
+            width: 480px;
+            height: 250px;
+            display: block;
+            margin: auto;
+        }
+        /*subway 메인 사진 스타일 설정*/
+
+        #main_content2 {
+            text-align: center;
+        }
+        /*현재 위치 바로가기 스타일 설정*/
+
+        /*현재 위치 바로가기 링크 스타일 설정*/
+        a.main_content2_list:link {
+            color: gray;
+        }
+
+        a.main_content2_list:visited {
+            color: gray;
+        }
+
+        a.main_content2_list:hover {
+            color: darkblue;
+        }
 
         #footer {
             background-color: #AAD3ED;
@@ -113,6 +130,7 @@
             padding-top: 10px;
             font-style: italic;
         }
+        /*footer 스타일 설정*/
     </style>
 </head>
 <body>
@@ -147,9 +165,10 @@
             <center><h1 style="padding-top: 20px">현재 위치는 혜화역입니다</h1></center>
 
             <div style="text-align : center;">
-                <img id="sub_close" src="img//위/혜화_4.jpg" width="592" ; height="86"  alt="지하철 근접도" /><br />
-                <a href="4호선 혜화역.html" target="_self"><img src=img/번호/4_on.jpg width="40"; height="40" > </a><br />
-                <img id="sub_close" src="img/아래/혜화_4.jpg" width="592" ; height="162" alt="지하철 근접도" />
+                <img id="sub_close" src="img//위/혜화_4.jpg" width="592" ; height="86" alt="지하철 근접도" /><br />
+                <a href="4호선 혜화역.html" target="_self"><img src=img/번호/4_on.jpg width="40" ; height="40"> </a><br />
+                <a href="4호선 혼잡도/혜화역 4호선 혼잡도.html" target="_self"><img id="sub_close" src="img/아래/혜화_4.jpg" width="592" ; height="162" alt="지하철 근접도" /></a>
+                <h6>테스트 페이지입니다. 위 이미지를 클릭하면 4203번 지하철 역 정보로 이동됩니다.</h6>
             </div>
 
             <div id="footer"> COPYRIGHT (c) 2021 SUBSPACE </div>
